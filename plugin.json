@@ -3,7 +3,7 @@
   "id": "paxect-core-summary-panel",
   "name": "PAXECT Core Summary Panel",
   "info": {
-    "description": "Compact panel showing determinism, integrity, reliability, performance, and stability metrics from PAXECT Core",
+    "description": "Visualizes key bridge metrics from PAXECT Core: determinism, integrity, reliability, performance, and stability across OS bridges.",
     "author": {
       "name": "PAXECT Interface"
     },
@@ -11,11 +11,16 @@
     "updated": "2025-11-07",
     "keywords": ["paxect", "deterministic", "bridge", "integrity", "plugin"],
     "links": [
-      {"name": "GitHub", "url": "https://github.com/PAXECT-Interface/paxect-core-plugin"},
-      {"name": "Documentation", "url": "https://paxect.com/core/docs"}
+      {
+        "name": "GitHub Repository",
+        "url": "https://github.com/PAXECT-Interface/paxect-core-plugin"
+      }
     ],
     "screenshots": [
-      {"name": "Panel preview", "path": "img/panel_preview.png"}
+      {
+        "name": "Panel preview",
+        "path": "img/panel_preview.png"
+      }
     ],
     "logos": {
       "small": "img/logo_small.png",
