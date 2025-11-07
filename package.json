@@ -1,0 +1,23 @@
+{
+  "name": "paxect-core-summary-panel",
+  "version": "1.0.0",
+  "description": "A Grafana panel plugin that visualizes determinism, integrity, reliability, performance, and stability metrics from PAXECT Core.",
+  "author": "PAXECT Interface",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test"
+  },
+  "devDependencies": {
+    "@grafana/toolkit": "^10.0.0"
+  },
+  "dependencies": {
+    "@grafana/ui": "^10.0.0",
+    "@grafana/data": "^10.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
