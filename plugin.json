@@ -1,0 +1,30 @@
+{
+  "type": "panel",
+  "id": "paxect-core-summary-panel",
+  "name": "PAXECT Core Summary Panel",
+  "info": {
+    "description": "Compact panel showing determinism, integrity, reliability, performance, and stability metrics from PAXECT Core",
+    "author": {
+      "name": "PAXECT Interface"
+    },
+    "version": "1.0.0",
+    "updated": "2025-11-07",
+    "keywords": ["paxect", "deterministic", "bridge", "integrity", "plugin"],
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/PAXECT-Interface/paxect-core-plugin"},
+      {"name": "Documentation", "url": "https://paxect.com/core/docs"}
+    ],
+    "screenshots": [
+      {"name": "Panel preview", "path": "img/panel_preview.png"}
+    ],
+    "logos": {
+      "small": "img/logo_small.png",
+      "large": "img/logo_large.png"
+    },
+    "license": "Apache-2.0"
+  },
+  "dependencies": {
+    "grafanaVersion": ">=9.0.0",
+    "plugins": []
+  }
+}
